@@ -1,0 +1,6 @@
+<template name="item">
+    <view>
+        <text>template 的子节点只能是一个而不是多个</text>
+        <text>{{text}}</text>
+    </view>
+</template>

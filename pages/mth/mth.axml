@@ -39,5 +39,12 @@
     <customText extra="父组件传递的属性" :testMethod="testMethod" data="{{...obj1}}">
         默认插槽
     </customText>
+    <text class="title">引入axml第一种方式：include</text>
+    <include  src="../xml/header.axml" />
+    <view> body</view>
+    <include  src="../xml/footer.axml" />
+    <text class="title">引入axml第一种方式：import</text>
+    <import  src="../xml/item.axml" />
+    <template is="item" data="{{text: 'forbar'}}"/>
 
 </view>
