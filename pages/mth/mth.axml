@@ -1,0 +1,29 @@
+<view class="container">
+    <text class="text">Hello {{title}}</text>
+    <text class="text">{{name}}</text>
+    <button onTap="onBtnClicked">Click me!</button>
+    <text class="title">列表渲染</text>
+    <view class="item" a:for="{{items}}">{{item}}</view>
+    <text class="title">遍历index</text>
+    <view class="item" a:for="{{array}}">
+        {{index}}:{{item.message}}
+    </view>
+    <text class="title">自定义下标和index名字</text>
+    <view class="item" a:for="{{array}}" a:for-index="idx" a:for-item="itemName">
+        {{idx}}: {{itemName.message}}
+    </view>
+    <text class="title">a:for嵌套</text>
+    <view a:for="{{[1, 2, 3, 4]}}" a:for-item="i">
+        <view a:for="{{[1, 2, 3, 4]}}" a:for-item="j">
+            <view class="item" a:if="{{i <= j}}">
+                {{i}} * {{j}} = {{i * j}}
+            </view>
+        </view>
+    </view>
+    <text class="title">条件渲染</text>
+    <view a:if="{{view == 'WebView'}}">WebView</view>
+    <view a:if="{{view == 'APP'}}">APP</view>
+    <view a:if="{{view == 'alibaba'}}">alibaba</view>
+    <text class="title">模板待定</text>
+
+</view>

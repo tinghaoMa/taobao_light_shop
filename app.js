@@ -5,6 +5,7 @@ App({
     { text: 'Learning ES2016', completed: true },
     { text: 'Learning 淘宝小程序', completed: false }
   ],
+  appInfo:'我是从app.js文件来的',
   userInfo: null,
   getUserInfo() {
     return new Promise((resolve, reject) => {
@@ -20,5 +21,19 @@ App({
         resolve(this.userInfo);
       }
     });
-  }
+  },
+
+  onLaunch(options) {
+    console.log('onLaunch')
+  },
+  onShow(options) {
+    console.log('onShow')
+  },
+  onHide() {
+    console.log('onHide')
+  },
+  onError() {
+    console.log('onError')
+  },
+
 });

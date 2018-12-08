@@ -13,6 +13,7 @@ Page({
     );
   },
   onShow() {
+    console.log('onShow');
     this.setData({ todos: app.todos });
   },
   onTodoChanged(e) {

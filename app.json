@@ -1,9 +1,28 @@
 {
   "pages": [
-    "pages/todos/todos",    
+    "pages/mth/mth",
+    "pages/todos/todos",
     "pages/add-todo/add-todo"
   ],
   "window": {
-    "defaultTitle": "Todo App"
+    "defaultTitle": "Todo App",
+    "navigationBarBackgroundColor": "#ff5000",
+    "navigationBarTitleText": "店铺页",
+    "navigationBarTextStyle": "white",
+    "tabBar": {
+      "textColor": "#49a9ee",
+      "selectedColor": "#49a9ee",
+      "backgroundColor": "#e94d55",
+      "items": [
+        {
+          "pagePath": "pages/mth/mth",
+          "name": "首页"
+        },
+        {
+          "pagePath": "pages/todos/todos",
+          "name": "日志"
+        }
+      ]
+    }
   }
 }

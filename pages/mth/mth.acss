@@ -1,0 +1,19 @@
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+  font-weight: bold;
+  color:blue;
+}
+.text{
+  color:red;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.item{
+  background: red;
+  color:white;
+}
+  
