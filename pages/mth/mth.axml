@@ -1,6 +1,6 @@
 <view class="container">
     <text class="text">Hello {{title}}</text>
-    <text class="text">{{name}}</text>
+    <text class="text">{{name}}{{noDefined}}</text>
     <button onTap="onBtnClicked">Click me!</button>
     <text class="title">列表渲染</text>
     <view class="item" a:for="{{items}}">{{item}}</view>
@@ -35,5 +35,5 @@
             {{item}}: click to bring to front
         </view>
     </view>
-    
+
 </view>
