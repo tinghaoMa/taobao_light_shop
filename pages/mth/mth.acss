@@ -19,4 +19,14 @@ page {
   background: red;
   color:white;
 }
-  
+/* 选择器 #id	#firstname	选择拥有 id="firstname" 的组件*/
+#firstName{
+  background: green;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+/* view	选择所有 view 组件*/
+button{
+  background: blue;
+  color: white;
+}

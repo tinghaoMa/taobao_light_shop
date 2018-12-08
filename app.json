@@ -8,21 +8,22 @@
     "defaultTitle": "Todo App",
     "navigationBarBackgroundColor": "#ff5000",
     "navigationBarTitleText": "店铺页",
-    "navigationBarTextStyle": "white",
-    "tabBar": {
-      "textColor": "#49a9ee",
-      "selectedColor": "#49a9ee",
-      "backgroundColor": "#e94d55",
-      "items": [
-        {
-          "pagePath": "pages/mth/mth",
-          "name": "首页"
-        },
-        {
-          "pagePath": "pages/todos/todos",
-          "name": "日志"
-        }
-      ]
-    }
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "textColor": "#ff5c00",
+    "selectedColor": "#462ac7",
+    "backgroundColor": "#e94d55",
+    "items": [
+      {
+        "pagePath": "pages/mth/mth",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/todos/todos",
+        "name": "日志"
+      }
+    ]
   }
+  
 }

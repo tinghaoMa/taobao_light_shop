@@ -38,6 +38,9 @@ Page({
             noDefined: '该值没有定义 直接setData里面设置'
         })
     },
+    onShow(){
+        
+    },
     onBtnClicked(e) {
         console.log('onBtnClicked --' + e);
         this.setData({
@@ -46,6 +49,8 @@ Page({
             console.log(this) // this 当前页面实例
             this.setData({ name: this.data.name + ', ' + 'welcome!' })
         });
+
+       
     },
     bringToFront(e) {
         console.log(e)
