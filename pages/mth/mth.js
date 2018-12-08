@@ -46,5 +46,11 @@ Page({
           console.log(list.length)
           this.setData({ list });
         }
+    },
+    testMethod(data) {
+        console.log("父组件传递到子组件的方法"+data);
+    },
+    customMethod(){
+        console.log("父组件的customMethod")
     }
 });
