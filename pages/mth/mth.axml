@@ -25,5 +25,15 @@
     <view a:if="{{view == 'APP'}}">APP</view>
     <view a:if="{{view == 'alibaba'}}">alibaba</view>
     <text class="title">模板待定</text>
-
+    <text class="title">block a:for</text>
+    <block a:for="{{[1, 2, 3]}}">
+        <view class="item"> {{index}}: {{item}}</view>
+    </block>
+    <text class="title">a:for</text>
+    <view a:for="{{list}}" a:key="{{item}}">
+        <view class="item" onTap="bringToFront" data-value="{{item}}">
+            {{item}}: click to bring to front
+        </view>
+    </view>
+    
 </view>
