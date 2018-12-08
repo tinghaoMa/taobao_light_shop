@@ -36,6 +36,8 @@
         </view>
     </view>
     <text class="title">自定义Component</text>
-    <customText extra="父组件传递的属性" :testMethod="testMethod"></customText>
+    <customText extra="父组件传递的属性" :testMethod="testMethod">
+        默认插槽
+    </customText>
 
 </view>
