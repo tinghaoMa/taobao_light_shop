@@ -1,4 +1,5 @@
 <view>{{counter}}</view>
+<view>{{a}}{{b}}</view>
 <view>extra:{{extra}}</view>
 <button onTap="plusOne">+1</button>
 <slot></slot>

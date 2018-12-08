@@ -1,6 +1,10 @@
 
 Component({
-    data: { counter: 0 },
+    data: { 
+        counter: 0 ,
+        a:100,
+        b:100,
+    },
     props: {
         testMethod: (data) => {
             console.log("子组件--"+data);
@@ -13,6 +17,14 @@ Component({
     },
     didMount() {
         console.log('didMount')
+        let a= this.props.data.a;
+        console.log(`this.data.a = ${this.props.data.a}`)
+        let b =this.props.data.b;
+        console.log(`this.data.b = ${this.props.data.b}`)
+        this.setData({
+            a:a,
+            b:b,
+        })
     },
     didUnmount() {
         console.log('didUnmount')
