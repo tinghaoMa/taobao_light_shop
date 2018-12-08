@@ -24,7 +24,6 @@
     <view a:if="{{view == 'WebView'}}">WebView</view>
     <view a:if="{{view == 'APP'}}">APP</view>
     <view a:if="{{view == 'alibaba'}}">alibaba</view>
-    <text class="title">模板待定</text>
     <text class="title">block a:for</text>
     <block a:for="{{[1, 2, 3]}}">
         <view class="item"> {{index}}: {{item}}</view>
@@ -56,5 +55,14 @@
     <block a:if="{{true}}">
         <view> block 并不是一个组件，仅仅是一个包装元素，不会在页面中做任何渲染，只接受控制属性 </view>
         <view class="item"> view2 </view>
+    </block>
+    <text class="title">模板1</text>
+    <import src="../xml/msgItem.axml" />
+    <template is="msgItem" data="{{item}}" />
+    <text class="title">模板2</text>
+    <import src="../xml/odd.axml" />
+    <import src="../xml/even.axml" />
+    <block a:for="{{[1, 2, 3, 4, 5]}}">
+        <template is="{{item % 2 == 0 ? 'even' : 'odd'}}" />
     </block>
 </view>
