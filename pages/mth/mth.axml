@@ -56,13 +56,31 @@
         <view> block 并不是一个组件，仅仅是一个包装元素，不会在页面中做任何渲染，只接受控制属性 </view>
         <view class="item"> view2 </view>
     </block>
-    <text class="title">模板1</text>
+    <text class="title">模板demo1</text>
     <import src="../xml/msgItem.axml" />
     <template is="msgItem" data="{{item}}" />
-    <text class="title">模板2</text>
+    <text class="title">模板demo2</text>
     <import src="../xml/odd.axml" />
     <import src="../xml/even.axml" />
     <block a:for="{{[1, 2, 3, 4, 5]}}">
         <template is="{{item % 2 == 0 ? 'even' : 'odd'}}" />
     </block>
+    <text class="title">View事件</text>
+    <view id="tapTest" data-hello="Alibaba" onClick="tapName">
+        dataset Object 绑定事件的组件上由 data- 开头的自定义属性的集合
+        <view id="tapTestInner" data-hi="Taobao">
+            Click me!
+        </view>
+    </view>
+
+    <text class="title">冒泡和阻止冒泡</text>
+    <view id="outter" onClick="handleTap1">
+        view1
+        <view id="middle" onClick="handleTap2">
+            view2
+            <view id="inner" onClick="handleTap3" data-hi="hi" data-hello="hello">
+                view3
+            </view>
+        </view>
+    </view>
 </view>
