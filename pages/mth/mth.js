@@ -18,7 +18,10 @@ Page({
         obj1:{
             a:1,
             b:2
-        }
+        },
+        condation:true,
+        length:10,
+        
     },
     customData: {
         hi: 'alibaba'

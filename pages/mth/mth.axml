@@ -40,11 +40,21 @@
         默认插槽
     </customText>
     <text class="title">引入axml第一种方式：include</text>
-    <include  src="../xml/header.axml" />
+    <include src="../xml/header.axml" />
     <view> body</view>
-    <include  src="../xml/footer.axml" />
+    <include src="../xml/footer.axml" />
     <text class="title">引入axml第一种方式：import</text>
-    <import  src="../xml/item.axml" />
-    <template is="item" data="{{text: 'forbar'}}"/>
-
+    <import src="../xml/item.axml" />
+    <template is="item" data="{{text: 'forbar'}}" />
+    <text class="title">条件渲染 a:if</text>
+    <view a:if="{{condation}}">True</view>
+    <text class="title">条件渲染 a:if a:elif a:else</text>
+    <view a:if="{{length > 5}}"> 1 </view>
+    <view a:elif="{{length > 2}}"> 2 </view>
+    <view a:else> 3 </view>
+    <text class="title">条件渲染 block a:if</text>
+    <block a:if="{{true}}">
+        <view> block 并不是一个组件，仅仅是一个包装元素，不会在页面中做任何渲染，只接受控制属性 </view>
+        <view class="item"> view2 </view>
+    </block>
 </view>
