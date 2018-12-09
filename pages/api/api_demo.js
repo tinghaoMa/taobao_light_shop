@@ -41,5 +41,28 @@ Page({
 
             }
           });
+    },
+    doAlert(){
+        my.alert({
+            title: '亲',
+            content: '您本月的账单已出',
+            buttonText: '我知道了',
+            success: () => {
+              my.alert({
+                content: '用户点击了「我知道了」',
+              });
+            },
+          });
+    },
+    showToast(){
+        my.showToast({
+            content: '操作成功',
+            duration: 3000,
+            success: () => {
+              my.alert({
+                content: 'toast 消失了',
+              });
+            },
+          });
     }
 })
