@@ -39,7 +39,7 @@ Page({
         })
     },
     onShow(){
-        
+      
     },
     onBtnClicked(e) {
         console.log('onBtnClicked --' + e);

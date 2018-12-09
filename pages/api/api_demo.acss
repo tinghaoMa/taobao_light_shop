@@ -1,0 +1,8 @@
+page {
+    background-color:goldenrod;
+}
+
+button{
+  background: rosybrown;
+  color: white;
+}

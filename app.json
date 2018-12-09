@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/api/api_demo",
     "pages/mth/mth",
     "pages/todos/todos",
     "pages/add-todo/add-todo"
@@ -15,6 +16,10 @@
     "selectedColor": "#462ac7",
     "backgroundColor": "#e94d55",
     "items": [
+      {
+        "pagePath":  "pages/api/api_demo",
+        "name": "api"
+      },
       {
         "pagePath": "pages/mth/mth",
         "name": "首页"

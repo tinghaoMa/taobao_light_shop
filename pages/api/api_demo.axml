@@ -1,0 +1,4 @@
+<view class="container">
+    <button onTap="doGetRequest">Get-HttpRequest</button>
+    <button onTap="doPostRequest">Post-HttpRequest</button>
+</view>
