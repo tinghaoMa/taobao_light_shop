@@ -7,7 +7,7 @@ Page({
     doGetRequest(){
         console.log("doGetRequest");
         my.httpRequest({
-            url: 'http://rap2api.taobao.org/app/mock/94657/getData',
+            url: 'http://rap2api.taobao.org/app/mock/94657/example/1544317895344',
             method: 'GET',
             dataType: 'json',
             success: function(res) {

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/anim/anim",
     "pages/api/api_demo",
     "pages/mth/mth",
     "pages/todos/todos",
@@ -17,7 +18,11 @@
     "backgroundColor": "#e94d55",
     "items": [
       {
-        "pagePath":  "pages/api/api_demo",
+        "pagePath": "pages/anim/anim",
+        "name": "anim"
+      },
+      {
+        "pagePath": "pages/api/api_demo",
         "name": "api"
       },
       {
@@ -30,5 +35,4 @@
       }
     ]
   }
-  
 }

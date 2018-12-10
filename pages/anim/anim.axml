@@ -1,0 +1,14 @@
+<view class="container">
+    <view id="rotate">
+        <view id="text">我不想旋转</view>
+    </view>
+
+    <view id="scale">scale</view>
+
+    <button id="btn">我会移动</button>
+
+    <button id="btn2">transform-orgin</button>
+
+    <view id="btn3" onClick="hello" style="color:{{color}}">过度动画</view>
+
+</view>

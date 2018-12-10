@@ -1,0 +1,47 @@
+@import '../css/btn.acss';
+
+.container{
+    display: column;
+}
+#rotate{
+    background: red;
+    margin-top: 40rpx;
+    width: 100rpx;
+    height: 100rpx;
+    transform: rotate(45deg);
+}
+#text{
+   color: green;
+   transform: rotate(-45deg);
+}
+
+#scale{
+    text-align: center;
+    background: green;
+    width: 100rpx;
+    height: 100rpx;
+    transform: scale(0.8);
+}
+#btn{
+    background: orange;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#btn2{
+    background: orange;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform-origin: bottom left;
+    transform: rotate(45deg)
+}
+#btn3{
+    background: blue;
+    padding: 10px;
+    line-height: 100px;
+    text-align: center;
+    height: 100px;
+    transition: color 1s ease-in;
+}
