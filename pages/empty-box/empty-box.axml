@@ -1,0 +1,6 @@
+<template name="box">
+    <view class="empty">
+        <text class="font">empty-box</text>
+        <view class="font" onTap="plusOne">传入的值= {{text}}</view>
+    </view>
+</template>

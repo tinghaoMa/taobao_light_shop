@@ -1,4 +1,8 @@
 <view class="container">
+    <view class="back">helloworld,我是文本我是文本我是文我是文本我是文本我是文我是文本我是文本我是文本我是文本我是文本我是文本</view>
+    <view animation="{{animationInfo}}" class="anim"></view>
+
+    <view class="root1">sssss</view>
     <view id="rotate">
         <view id="text">我不想旋转</view>
     </view>
@@ -10,5 +14,9 @@
     <button id="btn2">transform-orgin</button>
 
     <view id="btn3" onClick="hello" style="color:{{color}}">过度动画</view>
+
+    <view class="root">
+        <view class="child"></view>
+    </view>
 
 </view>

@@ -1,3 +1,4 @@
+import emptyBox from '../empty-box/empty-box';
 const app = getApp();
 
 Page({
@@ -25,9 +26,9 @@ Page({
             index: 0,
             msg: 'this is a template',
             time: '2016-09-15'
-        }
-
+        },
     },
+    ...emptyBox.methods,
     customData: {
         hi: 'alibaba'
     },
@@ -38,8 +39,8 @@ Page({
             noDefined: '该值没有定义 直接setData里面设置'
         })
     },
-    onShow(){
-      
+    onShow() {
+
     },
     onBtnClicked(e) {
         console.log('onBtnClicked --' + e);
@@ -50,7 +51,7 @@ Page({
             this.setData({ name: this.data.name + ', ' + 'welcome!' })
         });
 
-       
+
     },
     bringToFront(e) {
         console.log(e)
@@ -75,8 +76,8 @@ Page({
         console.log(hi);
         const { hello } = event.currentTarget.dataset;
         console.log(hello);
-        console.log('event.target = '+event.target.id);
-        console.log('event.currentTarget = '+event.currentTarget.id);
+        console.log('event.target = ' + event.target.id);
+        console.log('event.currentTarget = ' + event.currentTarget.id);
     },
     handleTap1(event) {
         console.log('handleTap1')
@@ -88,10 +89,20 @@ Page({
         console.log('handleTap3')
         console.log(`event.type = ${event.type}`)
         console.log(`event.timeStamp = ${event.timeStamp}`)
-        console.log('event.target = '+event.target.id);
-        console.log('event.currentTarget = '+event.currentTarget.id);
-        const{hi,hello} = event.target.dataset
-        console.log(hi,hello)
+        console.log('event.target = ' + event.target.id);
+        console.log('event.currentTarget = ' + event.currentTarget.id);
+        const { hi, hello } = event.target.dataset
+        console.log(hi, hello)
         event.stopPropagation();
+    },
+    onFocus() {
+        console.log("focus");
+    },
+    onInput(event) {
+        const { value } = event.detail;
+        console.log(value);
+    },
+    onBlur() {
+        console.log("blur");
     },
 });

@@ -1,0 +1,9 @@
+.empty{
+    background: black;
+}
+
+.font{
+    color:red;
+    font-size: 40rpx;
+    font-weight: bold;
+}

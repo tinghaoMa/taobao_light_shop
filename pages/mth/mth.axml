@@ -1,4 +1,13 @@
 <view class="container">
+
+
+
+
+    <view>
+        <input placeholder="textarea placeholder" placeholder-style="color: red;" auto-focus=true @focus="onFocus"
+            @input="onInput" @blur="onBlur" />
+    </view>
+
     <text class="text">Hello {{title}}</text>
     <text id="firstName">{{name}}{{noDefined}}</text>
     <button onTap="onBtnClicked">Click me!</button>
@@ -39,12 +48,16 @@
         默认插槽
     </customText>
     <text class="title">引入axml第一种方式：include</text>
-    <include src="../xml/header.axml" />
+    <include src="../header/header.axml" />
     <view> body</view>
     <include src="../xml/footer.axml" />
-    <text class="title">引入axml第一种方式：import</text>
+    <text class="title">引入axml第二种方式：import</text>
     <import src="../xml/item.axml" />
     <template is="item" data="{{text: 'forbar'}}" />
+
+    <import src="../empty-box/empty-box.axml" />
+    <template is="box" data="{{text: 'empty-box'}}" />
+
     <text class="title">条件渲染 a:if</text>
     <view a:if="{{condation}}">True</view>
     <text class="title">条件渲染 a:if a:elif a:else</text>

@@ -1,3 +1,5 @@
+@import '../empty-box/empty-box.acss';
+
 page {
   background-color:wheat;
 }
