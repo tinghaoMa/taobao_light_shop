@@ -3,6 +3,7 @@ const app = getApp();
 
 Page({
     data: {
+        ...emptyBox.data,
         title: '',
         name: 'hello',
         items: [1, 2, 3, 4],
@@ -27,7 +28,9 @@ Page({
             msg: 'this is a template',
             time: '2016-09-15'
         },
+
     },
+
     ...emptyBox.methods,
     customData: {
         hi: 'alibaba'

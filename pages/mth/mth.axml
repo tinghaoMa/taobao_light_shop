@@ -1,3 +1,4 @@
+<import src="../empty-box/empty-box.axml" />
 <view class="container">
 
 
@@ -55,8 +56,8 @@
     <import src="../xml/item.axml" />
     <template is="item" data="{{text: 'forbar'}}" />
 
-    <import src="../empty-box/empty-box.axml" />
-    <template is="box" data="{{text: 'empty-box'}}" />
+
+    <template is="box" data="{{temTitle,temText}}" />
 
     <text class="title">条件渲染 a:if</text>
     <view a:if="{{condation}}">True</view>
