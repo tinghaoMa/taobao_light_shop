@@ -1,9 +1,12 @@
 import emptyBox from '../empty-box/empty-box';
+import header from '../header/header';
+
 const app = getApp();
 
 Page({
     data: {
         ...emptyBox.data,
+        ...header.data,
         title: '',
         name: 'hello',
         items: [1, 2, 3, 4],
@@ -32,6 +35,7 @@ Page({
     },
 
     ...emptyBox.methods,
+    ...header.methods,
     customData: {
         hi: 'alibaba'
     },

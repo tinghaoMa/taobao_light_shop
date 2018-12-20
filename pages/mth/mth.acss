@@ -1,4 +1,5 @@
 @import '../empty-box/empty-box.acss';
+@import '../header/header.acss';
 
 page {
   background-color:wheat;

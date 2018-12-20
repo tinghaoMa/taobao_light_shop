@@ -1,1 +1,1 @@
-<view class="header">header22222222</view>
+<view class="header" onTap="clickHeader">{{header}}{{count}}</view>
