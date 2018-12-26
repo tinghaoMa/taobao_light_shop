@@ -1,7 +1,12 @@
 <import src="../empty-box/empty-box.axml" />
 <view class="container">
 
-
+    <view class="parent">
+        <text class="myTestText">Hello text</text>
+        <view class="myTestView">Hello view</view>
+        <view class="myTestView2">1111</view>
+        <text class="testText">数据很多数据很多数据很多数据很多数据很多数据很多数据很多数据很多数据很多数据很多</text>
+    </view>
 
 
     <view>

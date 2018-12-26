@@ -7,6 +7,7 @@ page {
 .container {
     flex: 1;
     display: flex;
+    width: 100%;
     flex-direction: column;
 }
 .title{
@@ -32,4 +33,35 @@ page {
 button{
   background: blue;
   color: white;
+  
+}
+
+.myTestView{
+  background: blue;
+  color: white;
+  padding: 10rpx;
+  margin: 20rpx 10rpx;
+  display: inline;
+}
+.myTestText{
+  display: inline-block;
+  background: blue;
+  color: white;
+  margin-bottom: 20rpx;
+}
+
+.myTestView2{
+  background: red;
+  margin-bottom: 10rpx;
+}
+
+.testText{
+  display: inline-block;
+  width: 100%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+}
+.parent{
+  color: yellow;
 }

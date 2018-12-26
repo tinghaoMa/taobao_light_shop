@@ -21,8 +21,8 @@ Page({
         ],
         list: ['1', '2', '3', '4'],
         obj1: {
-            a: 1,
-            b: 2
+            a: 111,
+            b: 2222
         },
         condation: true,
         length: 10,

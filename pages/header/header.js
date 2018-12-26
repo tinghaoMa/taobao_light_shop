@@ -6,6 +6,7 @@ export default {
             this.data.count += 1;
             this.setData({
                 count: this.data.count,
+                temTitle: '11111111111'
             })
         }
     },
