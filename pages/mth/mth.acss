@@ -65,3 +65,46 @@ button{
 .parent{
   color: yellow;
 }
+
+
+.testParent{
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx 0rpx;
+  background: yellowgreen;
+  box-sizing: border-box;
+  padding: 10rpx;
+}
+
+
+.v1{
+  background: red;
+  color: white;
+  margin-left: 20rpx;
+}
+
+.v2{
+  background: pink;
+  color: white;
+  flex-grow: 1;
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+  margin: 0rpx 20rpx;
+}
+
+.v3{
+  background: green;
+  color: white;
+  margin-right: 20rpx;
+}
+
+.two-line{
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2; 
+  word-wrap:break-word;
+  word-break:break-all;
+}
