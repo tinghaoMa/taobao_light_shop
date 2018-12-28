@@ -1,5 +1,12 @@
 <import src="../empty-box/empty-box.axml" />
 <view class="container">
+    <view class="shop-header">
+        <view class="parent11">
+            <text class="title11">铺名称铺名名称铺名名名名称铺名名称铺名名称铺名店铺称店铺名称</text>
+        </view>
+    </view>
+
+
 
     <text class="two-line">数据很多数据很据很多数据很据很多数据很据很多数据很多数据很多数据很多数据很多数据很多数据据很多数据很多数据很多数据很多数据很多数据很多</text>
     <view class="testParent">
@@ -13,7 +20,9 @@
         <text class="myTestText">Hello text</text>
         <view class="myTestView">Hello view</view>
         <view class="myTestView2">1111</view>
-        <text class="testText">数据很多数据很多数据很多数据很多数据很多数据很多数据很多数据很多数据很多数据很多</text>
+        <view class="parent1">
+            <text class="testText">数据很多数据很多数据很多数据很多数据很多数据很多数据很多数据很多数据很多数据很多</text>
+        </view>
     </view>
 
 

@@ -56,13 +56,13 @@ button{
 }
 
 .testText{
-  display: inline-block;
-  width: 100%; 
   overflow: hidden; 
   white-space: nowrap; 
   text-overflow: ellipsis;
 }
 .parent{
+  display: flex;
+  flex-direction: column;
   color: yellow;
 }
 
@@ -74,6 +74,11 @@ button{
   background: yellowgreen;
   box-sizing: border-box;
   padding: 10rpx;
+}
+
+.parent1{
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -107,4 +112,28 @@ button{
   -webkit-line-clamp:2; 
   word-wrap:break-word;
   word-break:break-all;
+}
+
+
+.shop-header{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+
+ .parent11{
+  display: flex;
+  background: red;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+ .title11{
+  margin-right: 48rpx;
+  margin-left:32rpx;
+  color: white;
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis;
 }

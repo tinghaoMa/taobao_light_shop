@@ -45,6 +45,33 @@ Page({
             title: 'Taobao--' + app.appInfo,
             noDefined: '该值没有定义 直接setData里面设置'
         })
+
+
+        let p1 = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve('success1')
+            }, 1000)
+        })
+
+        let p2 = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve('success2')
+            }, 3500)
+        })
+
+        Promise.all([p1, p2]).then((result) => {
+            console.log(result)
+        }).catch((error) => {
+            console.log(error)  // 打开的是 'failed'
+        })
+
+
+
+
+
+
+
+
     },
     onShow() {
 
