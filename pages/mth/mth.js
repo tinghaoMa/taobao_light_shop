@@ -65,13 +65,6 @@ Page({
             console.log(error)  // 打开的是 'failed'
         })
 
-
-
-
-
-
-
-
     },
     onShow() {
 
@@ -139,4 +132,18 @@ Page({
     onBlur() {
         console.log("blur");
     },
+
+    onScrollToUpper(handle) {
+        console.log('onScrollToUpper')
+        console.log(handle);
+    },
+
+    onScrollToLower(handle) {
+        console.log('onScrollToLower')
+        console.log(handle)
+    },
+    onScroll(handle) {
+        console.log('onScroll')
+        console.log(handle)
+    }
 });

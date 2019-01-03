@@ -137,3 +137,16 @@ button{
   white-space: nowrap; 
   text-overflow: ellipsis;
 }
+
+.scroll-view1{
+  background: blue;
+  max-height: 400rpx;
+  margin: 100rpx 50rpx;
+}
+
+
+.scroll-view2{
+  background: yellow;
+  max-height:200rpx;
+  margin: 0rpx 80rpx;
+}

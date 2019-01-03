@@ -13,24 +13,32 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "textColor": "#ff5c00",
-    "selectedColor": "#462ac7",
-    "backgroundColor": "#e94d55",
+    "textColor": "white",
+    "selectedColor": "green",
+    "backgroundColor": "",
     "items": [
       {
         "pagePath": "pages/anim/anim",
+        "icon": "/assets/tabicon/index_default.png",
+        "activeIcon": "/assets/tabicon/index_selected.png",
         "name": "anim"
       },
       {
         "pagePath": "pages/api/api_demo",
+        "icon": "/assets/tabicon/my_default.png",
+        "activeIcon": "/assets/tabicon/my_selected.png",
         "name": "api"
       },
       {
         "pagePath": "pages/mth/mth",
+        "icon": "/assets/tabicon/order_default.png",
+        "activeIcon": "/assets/tabicon/order_selected.png",
         "name": "首页"
       },
       {
         "pagePath": "pages/todos/todos",
+        "icon": "/assets/tabicon/vip_default.png",
+        "activeIcon": "/assets/tabicon/vip_selected.png",
         "name": "日志"
       }
     ]
