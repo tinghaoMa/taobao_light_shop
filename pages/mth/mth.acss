@@ -147,6 +147,10 @@ button{
 
 .scroll-view2{
   background: yellow;
-  max-height:200rpx;
   margin: 0rpx 80rpx;
+}
+
+.line-height-test{
+    background: red;
+    line-height: rpx;
 }

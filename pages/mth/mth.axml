@@ -1,13 +1,26 @@
 <import src="../empty-box/empty-box.axml" />
 <view class="container">
+
+    <view style="height:500rpx;display:flex;flex-direction: column;flex: 1">
+        <view>1111</view>
+        <view>flex-direction column的时候 flex=1控制的从轴的扩展性</view>
+        <view style="display:flex;flex:1">
+            <text>flex-direction row的时候 竖直方向充满</text>
+            <view>4444</view>
+        </view>
+    </view>
+    <view style="margin-top:100rpx;height:100rpx;color:yellowgreen;font-size: 40rpx">
+        <text class="line-height-test">中文HelloEnglish 继承父属性</text>
+    </view>
+
     <!--  -->
     <scroll-view class="scroll-view1" scroll-y="{{true}}" onScrollToUpper="onScrollToUpper" onScrollToLower="onScrollToLower"
         onScroll="onScroll" upper-threshold='0' lower-threshold='0'>
         <view style="
             background:green;height:600rpx;">
 
-            <scroll-view class="scroll-view2" scroll-y="{{true}}" onScrollToUpper="onScrollToUpper" onScrollToLower="onScrollToLower"
-                onScroll="onScroll" upper-threshold='0' lower-threshold='0'>
+            <scroll-view class="scroll-view2" style="height:{{height}}rpx" scroll-y="{{true}}" onScrollToUpper="onScrollToUpper"
+                onScrollToLower="onScrollToLower" onScroll="onScroll" upper-threshold='0' lower-threshold='0'>
                 <view style="
             background:red;height:400rpx;">1111
                 </view>

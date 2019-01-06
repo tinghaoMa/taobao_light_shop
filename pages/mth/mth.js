@@ -31,7 +31,7 @@ Page({
             msg: 'this is a template',
             time: '2016-09-15'
         },
-
+        height: 100,
     },
 
     ...emptyBox.methods,
@@ -144,6 +144,8 @@ Page({
     },
     onScroll(handle) {
         console.log('onScroll')
-        console.log(handle)
+
+        let { scrollTop, scrollHeight } = handle.detail;
+        console.log(`scrollTop =${scrollTop} scrollHeight=${scrollHeight}`)
     }
 });
