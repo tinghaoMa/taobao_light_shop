@@ -154,3 +154,11 @@ button{
     background: red;
     line-height: rpx;
 }
+
+
+.child{
+  background: red;
+  height: 100rpx;
+  /* position: absolute; */
+  position: fixed;
+}
