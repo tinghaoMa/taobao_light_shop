@@ -32,7 +32,7 @@ Page({
             time: '2016-09-15'
         },
         height: 100,
-        testValue: undefined,
+        testValue: null,
     },
 
     ...emptyBox.methods,

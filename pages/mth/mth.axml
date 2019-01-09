@@ -3,6 +3,9 @@
     <view class="child">加上absolute 或者fixed之后模式转换</view>
 
     <view a:if={{testValue}}>undefined 测试</view>
+    <view a:else>testValue a:if 支持 undefined null</view>
+
+
 
     <view style="height:500rpx;display:flex;flex-direction: column;flex: 1">
         <view>1111</view>
