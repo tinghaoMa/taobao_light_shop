@@ -7,6 +7,10 @@ export default {
             this.changeData({
                 temTitle: '我被改变了'
             });
+            /**
+             * temp直接调用page里面的方法
+             */
+            this.onTempMethod();
         },
 
         changeData(data = {}) {
@@ -19,5 +23,5 @@ export default {
     data: {
         temTitle: '点击我更改标题的值',
         temText: '我是标题'
-    }
+    },
 }

@@ -156,5 +156,8 @@ Page({
 
         let { scrollTop, scrollHeight } = handle.detail;
         console.log(`scrollTop =${scrollTop} scrollHeight=${scrollHeight}`)
+    },
+    onTempMethod() {
+        console.log('我是传递进去的onTempMethod 方法')
     }
 });
