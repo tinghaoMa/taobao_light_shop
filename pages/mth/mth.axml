@@ -1,5 +1,12 @@
 <import src="../empty-box/empty-box.axml" />
 <view class="container">
+
+    <view style="display:flex;align-items: center">
+        <view style="width:100rpx;height:100rpx;background: blue"></view>
+        <view style="{{testStyle}}"></view>
+        代码里直接写数字单位是rpx
+    </view>
+
     <view class="child">加上absolute 或者fixed之后模式转换</view>
 
     <view a:if={{testValue}}>undefined 测试</view>

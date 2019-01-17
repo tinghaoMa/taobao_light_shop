@@ -3,6 +3,12 @@ import header from '../header/header';
 
 const app = getApp();
 
+const testStyle = {
+    background: 'red',
+    width: 100,
+    height: 100,
+};
+
 Page({
     data: {
         ...emptyBox.data,
@@ -68,7 +74,9 @@ Page({
 
     },
     onShow() {
-
+        this.setData({
+            testStyle
+        });
     },
     onBtnClicked(e) {
         console.log('onBtnClicked --' + e);
