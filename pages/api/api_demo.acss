@@ -1,9 +1,16 @@
-page {
-    background-color:goldenrod;
+.root{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 .scorll-container{
-  width: 750rpx;
   background: red;
   border: 10rpx;
   border-style: solid;
+  width: 750rpx;
+}
+
+.header_titlebar{
+  background: green;
+  width: 750rpx;
 }

@@ -7,10 +7,13 @@
     "pages/add-todo/add-todo"
   ],
   "window": {
-    "defaultTitle": "Todo App",
-    "navigationBarBackgroundColor": "#ff5000",
-    "navigationBarTitleText": "店铺页",
-    "navigationBarTextStyle": "white"
+    "defaultTitle": "",
+    "transparentTitle": "none",
+    "translucent": false,
+    "enableInPageRender": "YES",
+    "titleBarColor": "#fff",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleBg": "https://gw.alicdn.com/tfs/TB1j1QLmgDqK1RjSZSyXXaxEVXa-224-80.png"
   },
   "tabBar": {
     "textColor": "white",

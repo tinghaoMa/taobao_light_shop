@@ -1,7 +1,7 @@
-<view class="container">
+<view class="root">
+    <view class="header_titlebar" style="height:{{titleBarHeight}}px"></view>
     <scroll-view class="scorll-container" scroll-y="true" onScroll="onScroll" onScrollToUpper="onScrollToUpper"
-        onScrollToLower="onScrollToLower" lower-threshold="0" hide-scroll-bar="true">
-        <view class="content">11111</view>
+        onScrollToLower="onScrollToLower" lower-threshold="0" hide-scroll-bar="true" style="height:{{menuHeight}}rpx">
 
     </scroll-view>
 </view>
