@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/api/api_demo",
     "pages/mth/mth",
     "pages/anim/anim",
-    "pages/api/api_demo",
     "pages/todos/todos",
     "pages/add-todo/add-todo"
   ],
@@ -18,16 +18,16 @@
     "backgroundColor": "",
     "items": [
       {
-        "pagePath": "pages/anim/anim",
-        "icon": "/assets/tabicon/index_default.png",
-        "activeIcon": "/assets/tabicon/index_selected.png",
-        "name": "anim"
-      },
-      {
         "pagePath": "pages/api/api_demo",
         "icon": "/assets/tabicon/my_default.png",
         "activeIcon": "/assets/tabicon/my_selected.png",
         "name": "api"
+      },
+      {
+        "pagePath": "pages/anim/anim",
+        "icon": "/assets/tabicon/index_default.png",
+        "activeIcon": "/assets/tabicon/index_selected.png",
+        "name": "anim"
       },
       {
         "pagePath": "pages/mth/mth",

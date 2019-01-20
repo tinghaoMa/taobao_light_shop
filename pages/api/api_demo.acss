@@ -1,8 +1,9 @@
 page {
     background-color:goldenrod;
 }
-
-button{
-  background: rosybrown;
-  color: white;
+.scorll-container{
+  width: 750rpx;
+  background: red;
+  border: 10rpx;
+  border-style: solid;
 }

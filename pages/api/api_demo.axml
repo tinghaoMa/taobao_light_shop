@@ -1,6 +1,7 @@
 <view class="container">
-    <button onTap="doGetRequest">Get-HttpRequest</button>
-    <button onTap="doPostRequest">Post-HttpRequest</button>
-    <button onTap="doAlert">Alert</button>
-    <button onTap="showToast">Toast</button>
+    <scroll-view class="scorll-container" scroll-y="true" onScroll="onScroll" onScrollToUpper="onScrollToUpper"
+        onScrollToLower="onScrollToLower" lower-threshold="0" hide-scroll-bar="true">
+        <view class="content">11111</view>
+
+    </scroll-view>
 </view>

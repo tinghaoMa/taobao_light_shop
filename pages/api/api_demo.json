@@ -1,1 +1,11 @@
-{}
+{
+    "transparentTitle": "always",
+    "allowsBounceVertical": "NO",
+    "window": {
+        "translucent": true,
+        "allowsBounceVertical": false,
+        "navigationBarForceEnable": true,
+        "navigationBarTitleText": ""
+    },
+    "navigationBarTitleText": ""
+}
