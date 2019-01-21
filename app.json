@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/api/api_demo",
-    "pages/mth/mth",
     "pages/anim/anim",
+    "pages/mth/mth",
     "pages/todos/todos",
     "pages/add-todo/add-todo"
   ],
@@ -18,7 +18,7 @@
   "tabBar": {
     "textColor": "white",
     "selectedColor": "green",
-    "backgroundColor": "",
+    "backgroundColor": "transparent",
     "items": [
       {
         "pagePath": "pages/api/api_demo",

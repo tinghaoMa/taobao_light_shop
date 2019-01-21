@@ -1,7 +1,12 @@
 <view class="root">
-    <view class="header_titlebar" style="height:{{titleBarHeight}}px"></view>
     <scroll-view class="scorll-container" scroll-y="true" onScroll="onScroll" onScrollToUpper="onScrollToUpper"
-        onScrollToLower="onScrollToLower" lower-threshold="0" hide-scroll-bar="true" style="height:{{menuHeight}}rpx">
-
+        onScrollToLower="onScrollToLower" lower-threshold="0">
+        <view class="header_titlebar" style="height:{{titleBarHeight}}px"></view>
+        <view class="title" style="{{stickyStyle}}">我是标题</view>
+        <view class="content"> 我是内容</view>
+        <scroll-view class="inner-scroll" scroll-y="{{shopListCanScroll}}" style="height:{{menuHeight}}rpx">
+            <view>顶部和我对齐</view>
+            <view class="item" a:for="{{items}}">{{item}}</view>
+        </scroll-view>
     </scroll-view>
 </view>
