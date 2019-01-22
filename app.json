@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/mth/mth",
     "pages/api/api_demo",
     "pages/anim/anim",
-    "pages/mth/mth",
     "pages/todos/todos",
     "pages/add-todo/add-todo"
   ],

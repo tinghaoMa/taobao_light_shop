@@ -1,6 +1,10 @@
 <import src="../empty-box/empty-box.axml" />
 <view class="container">
 
+    <view class="gradient" style="height: 200rpx;width:200rpx;">
+        渐变
+    </view>
+
     <view style="display:flex;align-items: center">
         <view style="width:100rpx;height:100rpx;background: blue"></view>
         <view style="{{testStyle}}"></view>

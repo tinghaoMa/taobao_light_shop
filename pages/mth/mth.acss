@@ -163,3 +163,11 @@ button{
   position: fixed;
   top: 500rpx;
 }
+
+.gradient{
+  background: linear-gradient(
+    -180deg,
+    rgba(255, 255, 255, 0) 0%,
+    white 60%
+  );
+}

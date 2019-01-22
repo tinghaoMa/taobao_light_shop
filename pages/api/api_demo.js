@@ -7,13 +7,13 @@ const stickyStyle = {
     position: 'fixed',
     top: 0,
     color: 'black',
-
+    zIndex: 10,
 };
 
 // 用于未吸顶的顶部状态栏样式配置
 const noStickyStyle = {
-    background: 'transparent',
-
+    background: 'blue',
+    zIndex: 10,
 };
 
 Page({

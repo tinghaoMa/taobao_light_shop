@@ -25,6 +25,7 @@
    height: 50rpx;
    width: 750rpx;
    justify-content: center;
+   z-index: 10;
 }
 .inner-scroll{
   background: greenyellow;
