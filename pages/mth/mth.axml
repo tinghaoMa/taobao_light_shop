@@ -1,5 +1,12 @@
 <import src="../empty-box/empty-box.axml" />
 <view class="container">
+    <view style="background:yellow;height:50rpx;
+    position: absolute;width: 100%;
+    padding-top: 100rpx;text-align: center;
+    ">11111</view>
+
+
+
 
     <view style="background:red;height:300rpx;display: flex;flex-direction: column">
         <view style="background:blue;height:100rpx;flex-shrink: 0;">11</view>
